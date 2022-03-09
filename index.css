@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(52, 185, 185);
+  background-color: blue;
 }
 body , html{
   overflow-x: hidden !important;
@@ -26,30 +26,20 @@ code {
   z-index: 9999;
 }
 h1{
-  font-size: 2em;
+  font-size: 30px;
   font-weight: bold;
-  color : rgb(164, 81, 231);
-}
-.Car-collection h3{
-  color: purple;
-  font-size: 2.2em;
-  font-weight: 1000;
-}
-.Car-collection h2{
-  color: purple;
-  font-size: 1.2em;
-  font-weight: bold;
+  color : orangered;
 }
 p{
   margin: 5px !important;
-  font-size: 1em;
+  
   padding: 0;
 }
 .btn1{
   box-shadow: none !important;
   background-color : white !important;
-  color: purple !important;
-  border: 1px solid purple !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
   padding: 5px 15px !important;
   outline: none !important;
 }
@@ -65,53 +55,41 @@ button{
 }
 .header .ant-btn{
   box-shadow: none !important;
-  background-color : white !important;
-  color: purple !important;
-  border: 1px solid purple !important;
+  background-color : lightcoral !important;
+  color: blue !important;
+  border: 1px solid pink !important;
   padding: 5px 15px !important;
   outline: none !important;
 }
 .content{
-  background-image:linear-gradient(
-    115deg,
-    rgba(58, 58, 158, 0.3),
-    rgba(136, 136, 206, 0.5)
-  );
-  width: 100vw;
-  min-height: max-content;
-  height: auto;
+  min-height: 90vh;
+  
 }
 .footer{
-  background-color: azure;
-  padding: 5px;  
-  position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: auto;
-    margin: 0 auto;
+  background-color: pink;
+  padding: 10px;
 }
 
 
+/* this is just for ui purpose , no functionality is related */
 .car{
   border-radius: 5px;
   margin-top: 100px;
   height: 160px;
-  color: black;
-  font-weight: 700;
   transition: 0.3s;
-  background-color: rgba(255, 255, 255, 0.424);  
-  backdrop-filter: blur(5px);
 }
 .car:hover{
   height :220px;
 }
 .car:hover > .car-content{
+
     opacity: 1;
     transform : translateY(-40px)
+
 }
 .carimg{
-  height: 180px;
-  width: 270px;
+  height:180px;
+  width: auto;
   border-radius: 5px;
   transform: translateY(-50px);
 }
@@ -147,6 +125,8 @@ button{
   transform: translateY(-50% , -50%);
   font-size:45px;
   opacity: 0.2 !important;
+  
+
 }
 .login a{
   color: white !important;
@@ -154,9 +134,9 @@ button{
 }
 
 .carimg2{
-  height: auto;
+  height: 400px;
   border-radius: 10px;
-  width: 90%;
+  width: auto;
 }
 
 svg{
@@ -164,41 +144,6 @@ svg{
   width : 20px !important;
 }
 a{
-  color: black !important;
+  color: orangered !important;
 }
 
-.Car-collection{
-  background-image: linear-gradient(
-    115deg,
-    rgba(58, 58, 158, 0.3),
-    rgba(136, 136, 206, 0.5)
-  ), !important;
-  background-size: cover;
-  width: 100vw;
-  height: auto;
-  max-height: 90vw;
-  padding-bottom: 5vh;
-}
-.bookingCar{
-  color: purple;
-  background-image: linear-gradient(
-    115deg,
-    rgba(58, 58, 158, 0.7),
-    rgba(136, 136, 206, 0.5)), !important;
-  background-size: cover;
-  width: 100vw;
-  height: auto;
-  max-height: 90vw;
-}
-
-.bookCarInfo{
-    border-radius: 5px;
-    font-size: 1.3em;
-    font-weight: 700;
-    padding-right: 5%;
-    color:rgba(20, 20, 30, 0.8);
-    background-color: rgba(255, 255, 255, 0.424);  
-    backdrop-filter: blur(5px);
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
