@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(52, 185, 185);
+}
+body , html{
+  overflow-x: hidden !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.ant-row{
+  margin: 0 20 !important;
+}
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+h1{
+  font-size: 2em;
+  font-weight: bold;
+  color : rgb(164, 81, 231);
+}
+.Car-collection h3{
+  color: purple;
+  font-size: 2.2em;
+  font-weight: 1000;
+}
+.Car-collection h2{
+  color: purple;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+p{
+  margin: 5px !important;
+  font-size: 1em;
+  padding: 0;
+}
+.btn1{
+  box-shadow: none !important;
+  background-color : white !important;
+  color: purple !important;
+  border: 1px solid purple !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.bt1:focus{
+  border: none;
+}
+button{
+  padding: 3px 10px !important;
+}
+.header{
+  padding: 10px;
+  
+}
+.header .ant-btn{
+  box-shadow: none !important;
+  background-color : white !important;
+  color: purple !important;
+  border: 1px solid purple !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+.content{
+  background-image:linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.3),
+    rgba(136, 136, 206, 0.5)
+  );
+  width: 100vw;
+  min-height: max-content;
+  height: auto;
+}
+.footer{
+  background-color: azure;
+  padding: 5px;  
+  position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.car{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  color: black;
+  font-weight: 700;
+  transition: 0.3s;
+  background-color: rgba(255, 255, 255, 0.424);  
+  backdrop-filter: blur(5px);
+}
+.car:hover{
+  height :220px;
+}
+.car:hover > .car-content{
+    opacity: 1;
+    transform : translateY(-40px)
+}
+.carimg{
+  height: 180px;
+  width: 270px;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+.car-content{
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.login{
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.login label , .login h1{
+  color: white !important;
+  opacity: 0.6;
+}
+.login-form{
+  background-color: #1F1F1F;
+}
+.login-form input{
+  background-color: #333333 !important;
+  border : none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login-logo{
+  position: absolute;
+  left:0;
+  right:0;
+  top: 60%;
+  bottom: 50%;
+  transform: translateY(-50% , -50%);
+  font-size:45px;
+  opacity: 0.2 !important;
+}
+.login a{
+  color: white !important;
+  opacity: 0.5;
+}
+
+.carimg2{
+  height: auto;
+  border-radius: 10px;
+  width: 90%;
+}
+
+svg{
+  height:20px !important;
+  width : 20px !important;
+}
+a{
+  color: black !important;
+}
+
+.Car-collection{
+  background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.3),
+    rgba(136, 136, 206, 0.5)
+  ), !important;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  max-height: 90vw;
+  padding-bottom: 5vh;
+}
+.bookingCar{
+  color: purple;
+  background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.7),
+    rgba(136, 136, 206, 0.5)), !important;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  max-height: 90vw;
+}
+
+.bookCarInfo{
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-right: 5%;
+    color:rgba(20, 20, 30, 0.8);
+    background-color: rgba(255, 255, 255, 0.424);  
+    backdrop-filter: blur(5px);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
